@@ -7,6 +7,7 @@
 - NestJS
 - Prisma
 - PostgreSQL
+- Bcrypt
 
 ---
 
