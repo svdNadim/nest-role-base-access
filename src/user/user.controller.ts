@@ -12,7 +12,7 @@ export class UserController {
     @Body()
     body: CreateUserDto,
   ) {
-    return this.userService.createuser(body);
+    return this.userService.createUser(body);
   }
 
   @Get()
