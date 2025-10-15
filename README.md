@@ -1,3 +1,28 @@
+# NestJS Role Bases Access
+
+---
+
+## Technologies
+
+- NestJS
+- Prisma
+- PostgreSQL
+
+---
+
+### Admin And User Credentials
+
+**User**
+
+```bash
+{
+ "email": "nadimcottonsdt@gmail.com",
+ "name": "Nadim  Mahmud",
+ "password": "nadim123",
+ "role": "BUYER"
+}
+```
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
