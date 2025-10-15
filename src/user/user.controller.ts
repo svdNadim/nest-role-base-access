@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
-import { Role } from '@prisma/client';
+import { CreateUserDto } from './dto/create-user-dto';
 import { UserService } from './user.service';
 
 @Controller('users')
@@ -10,12 +10,7 @@ export class UserController {
   @Post('create-user')
   async createUser(
     @Body()
-    body: {
-      email: string;
-      name: string;
-      password: string;
-      role?: Role;
-    },
+    body: CreateUserDto,
   ) {
     return this.userService.createuser(body);
   }
